@@ -1,5 +1,50 @@
-h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    
+/* Header Design */
+
+.header {
+    padding-top: 20vh;
 }
+.header,h1 {
+    text-align: center;
+}
+
+/*Body Design */
+
+body {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+/* Footer Design */
+
+.footer {
+    
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(54, 54, 54);
+}
+
+input {
+    width: 40%;
+    padding: 13px 20px;
+    margin: 8px 0;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+

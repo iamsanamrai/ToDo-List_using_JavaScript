@@ -3,11 +3,35 @@
     <head>
         <Title>To-Do List using JavaScript</Title>
         <link rel="stylesheet" href="style.css">
-        <script src="javascript.js"></script>
+        <script src="myscript.js" defer></script>
     </head>
 
+
+
     <body>
-        <h1>To-Do</h1>
-        <p>I can do it</p>
+       <!-- Header -->
+
+        <div class="header">
+            <h1>Do-It</h1>
+        </div>
+        
+
+
+        <p id="todoList"></p>
+
+    
+
+<!-- Footer -->
+    <div class="footer">
+        <div>
+        <input type="text" id="todoInput" placeholder="Write a task...">
+         <button onclick="addTodo()">Add</button>
+    
+        </div>
+    
+            <p>Add a TO-Do task to Do-It.</p>
+            <p>© 2023. Made with Passion.</p>
+    </div>
+
     </body>
 </html>
