@@ -20,20 +20,21 @@
     <main>
         <section class="task-list">
 
-            <div id="task">
-                <div class="task">
+            <div id="tasks">
+                <!--<div class="task">
                     
                     <div class="content">
                         <input 
                             type="radio"
                             class="text"
+                            value=""
                             readonly>
                     </div>
 
                     <div class="action">
                         <button class="edit">Edit</button>
                         <button class="delet">Delete</button>
-                    </div>
+                    </div>-->
                     
                 </div>
 
@@ -45,11 +46,15 @@
 <!-- Footer -->
     <div class="footer">
         <p>Add a TO-Do task to Do-It.</p>
-        <div>
-        <input type="text" id="todoInput" placeholder="Write a task...">
+        <form id="new-task-form">
+        <input 
+            type="text" 
+            id="todoInput" 
+            placeholder="Write a task...">
+
          <button onclick="addTodo()">Add Task</button>
     
-        </div>
+        </form>
     
             
             <p>© 2023 HNH. Made with Passion.</p>
