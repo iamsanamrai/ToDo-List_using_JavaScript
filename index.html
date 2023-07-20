@@ -1,64 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <Title>To-Do List using JavaScript</Title>
-        <link rel="stylesheet" href="style.css">
-        <script src="main.js" defer></script>
-    </head>
-
-
-
-    <body>
-       <!-- Header -->
-
-        <div class="header">
-            <h1>Do-It</h1>
-        </div>
-        
-
-    <!--Main-->
-    <main>
-        <section class="task-list">
-
-            <div id="tasks">
-                <!--<div class="task">
-                    
-                    <div class="content">
-                        <input 
-                            type="radio"
-                            class="text"
-                            value=""
-                            readonly>
-                    </div>
-
-                    <div class="action">
-                        <button class="edit">Edit</button>
-                        <button class="delet">Delete</button>
-                    </div>-->
-                    
-                </div>
-
-            </div>
-        </section>
-    </main>
-    
-
-<!-- Footer -->
-    <div class="footer">
-        <p>Add a TO-Do task to Do-It.</p>
-        <form id="new-task-form">
-        <input 
-            type="text" 
-            id="todoInput" 
-            placeholder="Write a task...">
-
-         <button onclick="addTodo()">Add Task</button>
-    
-        </form>
-    
-            
-            <p>© 2023 HNH. Made with Passion.</p>
+<head>
+  <title>To-do List using JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <h1>Do-It</h1>
     </div>
 
-    </body>
+    <!--Main-->
+
+   <main>
+    <section>
+        
+    <div id="tasks">
+
+        
+    </div>
+
+    </section>
+   </main>
+   
+  
+    <!--Footer-->
+    <div class="footer">
+        <p>Add a To-Do task to Do-It.</p>
+      
+  <input 
+  type="text" 
+  id="todoInput" 
+  placeholder="Enter a task">
+
+  <button onclick="addTodo()">Add</button>
+
+  
+  <p>© 2023 HNH. Made with Passion.</p>
+
+</div>
+</body>
 </html>
